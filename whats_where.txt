@@ -1,0 +1,62 @@
+-- look into it once again
+Binary search tree
+max_connections_in_a_grid
+running median - look at improved heap version
+BFS
+DFS
+
+
+
+2_patterns2dgrid:
+Parse the input lines, find a sub matrix in a matrix, fill matrix
+
+balacing brackers:
+stack, parse strings
+
+anagram,
+string sort, intersection in strings
+
+checking_prime
+prime logic, check from 4-sqrt(n)
+
+custom_sort -
+comparator implementation
+
+linkedlist:
+sort of parsing the list
+
+
+fibonacci
+recursion
+
+finding_contacts
+- parsing a line, splitting on spaces, string length, string compare
+
+number of ways to climb:
+recursion, linear approach -
+
+ransom_note - hashmap
+
+queus with stacks
+- stacks and good logic
+
+squares between numbers
+
+time conversion - string access, string to int, int to string
+
+two val sum equals
+- hashmap
+
+
+
+
+
+##########
+push_back - vector
+push -  stack, queue,
+insert - set,map
+pop - all
+find - set,map
+end   - map, set
+top   - stack
+front - queue
