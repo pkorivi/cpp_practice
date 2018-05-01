@@ -5,7 +5,7 @@ Assumptions::
   * Data contains only integers with space separation
   * First line states number of rows and columns and sub matrix size followed by space separated data_in
       4 4 2 // a 4x4 matrix sub divided into 3x3
-      1 2 3 4 //4x4 matrix with spapce seperated integers
+      1 2 3 4 //4x4 matrix with space separated integers
       4 5 6 5
       7 8 9 6
       4 5 6 5
