@@ -8,10 +8,7 @@
 using namespace std;
 
 /*
-Assumptions -
-Data is read from a file exaple file data_in.txt is provided
-Data contains only integers with space seperation
-First line states number of rows and columns and sub matrix size followed by space seperated data_in
+read through readme.md
 */
 
 /**
@@ -91,6 +88,8 @@ void shift_matrix(int **src,int r_start, int c_start, int size, int value ){
 ** @param : source matrix,  sub_matrix  start_row, sub_marix start coumn, size of matrix to be rotated
 **/
 void rotate_sub_matrix(int **src, int r_start, int c_start, int mat_size){
+  if(mat_size<=1)
+    return;
   //extract the first value - i.e., ast value to occue in clock wise rotation.
   int first_val = 0;
   int first_val_index = (int)(mat_size/2);
