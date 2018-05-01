@@ -23,7 +23,7 @@
 
 using namespace std;
 /*
-input 
+input
 trips
 (
 money
@@ -48,7 +48,7 @@ int main(){
                 j+1>k?cout<<k<<" "<<j+1<<endl:cout<<j+1<<" "<<k<<endl;
                 continue;
             }
-          costmap[jthcost] = j+1; //if compliment doesnt exist add the element to map for checking with next element  
+          costmap[jthcost] = j+1; //if compliment doesnt exist add the element to map for checking with next element
         }
     }
     return 0;
@@ -88,7 +88,7 @@ void find_combination2(int money, vector<int> flavor_cost){
         if(costmap.find(compliment) != costmap.end()){
             int j = costmap[compliment];
             i+1>j?cout<<j<<" "<<i+1<<endl:cout<<i+1<<" "<<j<<endl;
-            
+
             return;
         }
         costmap[flavor_cost[i]] = i+1; //if compliment doesnt exist add the element to map for checking with next element
